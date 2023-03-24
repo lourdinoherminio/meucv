@@ -1,0 +1,127 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    background-color: darkblue;
+
+}
+
+#menu2{
+    list-style: none;
+    padding: 0;
+    background-color: darkblue;
+}
+#menu2 li{
+    display: inline;
+}
+#menu2 li a{
+    float: right;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+    transition: background .5s;
+    
+}
+#menu2 li a:hover{
+    background-color: blue;
+    color: black;
+    
+}
+#menu2 li:last-child a{
+    float: right;
+    background-color: blue;
+
+}
+nav{
+    position: fixed;
+    width:1360px;
+}
+
+img{
+width:70px;
+top: 60px;
+
+
+
+}
+h1{
+    text-align: center;
+}
+p{
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+fieldset{
+    border: 3px solid white;
+}
+
+legend{
+    border: 1px solid white;
+    padding: 10px;
+    text-align: center;
+    background-color: darkblue;
+    border-radius: 5px;
+}
+.inputBox{
+    position: relative;
+}
+.inputUser{
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 2px;
+}
+.labelInput{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5px;
+}
+.inputUser:focus ~ .labelInput,
+.inputUser:valid ~ .labelInput{
+    top: -20px;
+    font-size: 12px;
+    color: white;
+}
+button{
+    background-image: linear-gradient(to right, rgb(6, 4, 122), rgb(6, 4, 122));
+    width: 100%;
+    border: none;
+    padding: 15px;
+    color: white;
+    font-size: large;
+    cursor: pointer;
+    border-radius: 10px;
+}
+button:hover{
+    background-image: linear-gradient(to right, rgb(11, 9, 156), rgb(11, 9, 156)); 
+}
+textarea{
+    width: 98%;
+    border: none;
+    padding: 15px;
+    font-size: large;
+    cursor: pointer;
+    border-radius: 10px;
+
+}
+footer{
+    text-align: center;
+    font-size: small;
+    background-color: white;
+    padding: 20px;
+    color: black;
+
+}
+a{
+    color: blue;
+}
